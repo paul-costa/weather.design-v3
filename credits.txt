@@ -1,0 +1,5 @@
+credit to other parties:
+	android-res/icon.png made by 
+		href=  "https://www.flaticon.com/authors/smashicons" 
+		title= "Smashicons"
+		href=  "https://www.flaticon.com/" title="Flaticon"

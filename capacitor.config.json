@@ -1,0 +1,8 @@
+{
+  "appId": "at.paulcosta.weatherdesign",
+  "appName": "weather.design",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}
