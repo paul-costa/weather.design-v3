@@ -1,6 +1,9 @@
-.container {
-    height: 100%;
+.elementsRow {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
+
 
 .forecastElement {
     border: 2px solid white;
@@ -11,21 +14,24 @@
 
 .date, .degree {
     font-weight: 200;
+    height: 1.25em;
+    overflow: hidden;
 }
 
 .date {
-    font-size: 1.5em;
+    font-size: 1.25em;
     margin-top: 0.25em;
     margin-bottom: -0.5em;
 }
 
 .degree {
-    font-size: 1.5em;
+    font-size: 1.25em;
+    margin-bottom: 0.5em;
 }
 
 .logo {
     height: 2em;
-    
+
     background-repeat: no-repeat !important;
     background-size: contain !important;
     background-position: center !important;

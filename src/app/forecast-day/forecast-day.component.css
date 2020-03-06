@@ -1,3 +1,7 @@
+.forecastContainer {
+  padding: 2.5em;
+}
+
 .timeBlock {
     margin-top: 1em;
     margin-bottom: 1em;
@@ -15,8 +19,8 @@
 
 .backButtonContainer {
     position: fixed;
-    top: 1em;
-    left: 1em;
+    bottom: 4em;
+    right: 4em;
 }
 
 #humidityIcon {

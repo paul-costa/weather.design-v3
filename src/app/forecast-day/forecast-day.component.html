@@ -8,13 +8,11 @@
     </div>
 </div>
 
-<div class="backButtonContainer">
-    <button mat-raised-button (click)="navigateHome()">Go Home</button>
-</div>
 
-<div class="container-fluid" style="padding-right: 2em;">
+
+<div class="container-fluid forecastContainer">
     <div class="row timeBlock" *ngFor="let dailyData of displayData">
-        <div class="offset-lg-10 col-lg-2 offset-md-8 col-md-4 offset-sm-6 col-sm-6 offset-6 col-6 timeCard">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 timeCard">
             <div class="row">
                 <div class="col-4 text-right my-auto TimeText">{{getTime(dailyData.date)}}</div>
                 <div class="col-8">
@@ -24,4 +22,8 @@
             </div>
         </div>
     </div>
+</div>
+
+<div class="backButtonContainer">
+  <button mat-raised-button (click)="navigateHome()">Go Home</button>
 </div>

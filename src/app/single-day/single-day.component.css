@@ -1,19 +1,18 @@
-
 .degreeBig {
-    font-size: 10em;
+    font-size: 6em;
 }
 
 .clockAndDate {
-    font-size: 3em;
+    font-size: 2em;
 }
 .cityAndCountry {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .shortDesc, .humidPercent, .windspeed {
     font-size: 1.5em;
 }
- 
+
 
 .icon {
     width: 2em;
@@ -42,13 +41,13 @@
     width: 100%;
     position: absolute;
     bottom: 4em;
-
-    padding-left: 3em;
-    padding-right: 3em;
 }
 
 mat-slider {
-  width: 100%;
+  margin-left: 10%;
+  width: 80%;
 }
 
-
+::ng-deep .mat-slider-thumb {
+  transform: scale(1.25) !important;
+}
